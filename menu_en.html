@@ -43,8 +43,30 @@
         <!-- Spinner End -->
 
         <!-- menu book -->
-        <div id="menuContainer"></div>
-    
+       
+        <div class="book-section">
+            <button id="back-to-home" onclick="goToHome()">Voltar ao Home</button>
+             <div class="container">
+                <div class="right">
+                     <figure class="back" id="back-cover"></figure>
+                     <figure class="front" style="background-image: url('./img/Cardapio-Design-EN_page6.jpg');"></figure>
+                 </div>
+                 <div class="right">
+                     <figure class="back" style="background-image: url('./img/Cardapio-Design-EN_page5.jpg');"></figure>
+                     <figure class="front" style="background-image: url('./img/Cardapio-Design-EN_page4.jpg');"></figure>
+                 </div>
+                 <div class="right">
+                     <figure class="back" style="background-image: url('./img/Cardapio-Design-EN_page3.jpg');"></figure>
+                     <figure class="front" style="background-image: url('./img/Cardapio-Design-EN_page2.jpg');"></figure>
+                 </div>
+                 <div class="right">
+                     <figure class="back" style="background-image: url('./img/Cardapio-Design-EN_page1.jpg');"></figure>
+                     <figure class="front" style="background-image: url('./img/Cardapio-Design-PT_Capa2.jpg');"></figure>
+
+                 </div>
+             </div>
+             <br/>
+         </div>
         <!-- menu book -->
 
 
@@ -119,23 +141,25 @@ function goToHome() {
     // Por exemplo:
     window.location.href = "index.html";
 }
-        // Função para carregar o menu com base no idioma da URL
-        function loadMenu() {
-            // Obter a URL atual
-            var url = window.location.href;
-
-            // Verificar se a URL contém o parâmetro de idioma
-            if (url.includes('/pt/')) {
-                // Carregar o menu em português
-                document.getElementById('menuContainer').innerHTML = '<object type="text/html" data="menu_pt.html"></object>';
-            } else {
-                // Carregar o menu em inglês por padrão
-                document.getElementById('menuContainer').innerHTML = '<object type="text/html" data="menu_en.html"></object>';
-            }
+function loadMenu() {
+        // Obter a URL atual
+        var url = window.location.href;
+        
+        // Verificar se a URL contém o nome do arquivo para o menu em português
+        if (url.includes('booking_pt.html')) {
+            // Carregar o menu em português
+            document.getElementById('menuContainer').innerHTML = '<object type="text/html" data="booking_pt.html"></object>';
+        } else if (url.includes('booking_en.html')) {
+            // Carregar o menu em inglês
+            document.getElementById('menuContainer').innerHTML = '<object type="text/html" data="booking_en.html"></object>';
+        } else {
+            // Carregar um menu padrão ou mostrar uma mensagem de erro
+            document.getElementById('menuContainer').innerHTML = 'Erro: Idioma não especificado na URL';
         }
+    }
 
-        // Chamar a função loadMenu() quando a página for carregada
-        window.onload = loadMenu;
+    // Chamar a função loadMenu() quando a página for carregada
+    window.onload = loadMenu;
     </script>
 
 </body>
