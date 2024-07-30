@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Restoran - Bootstrap Restaurant Template</title>
+    <title>Kantu - Food Menu</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="restaurant, menu, food, drinks" name="keywords">
+    <meta content="Discover our delicious menu at Kantu Restaurant" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -47,41 +47,26 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <h1 class="text-primary m-0"><img src="img/favicon-logo.png" alt="Logo"></i>Kantu</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="menu.html" class="nav-item nav-link active">Menu</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="booking.html" class="dropdown-item">Booking</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="index.html" class="nav-item nav-link active">Início</a>
+                        <a href="about.html" class="nav-item nav-link">Sobre</a>
+                        <a href="menu.html" class="nav-item nav-link">Menu</a>
+                        <a href="contact.html" class="nav-item nav-link">Contato</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                    <a href="booking.html" class="btn btn-primary py-2 px-4">Reservar Mesa</a>
                 </div>
             </nav>
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container text-center my-5 pt-5 pb-4">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Menu Digital</h1>
                     <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
-                        </ol>
                     </nav>
                 </div>
             </div>
@@ -93,8 +78,8 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-                    <h1 class="mb-5">Most Popular Items</h1>
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Menu</h5>
+                    <h1 class="mb-5">Menu</h1>
                 </div>
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
@@ -103,7 +88,7 @@
                                 <i class="fa fa-coffee fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Popular</small>
-                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
+                                    <h6 class="mt-n1 mb-0">Entradas</h6>
                                 </div>
                             </a>
                         </li>
@@ -112,7 +97,7 @@
                                 <i class="fa fa-hamburger fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Special</small>
-                                    <h6 class="mt-n1 mb-0">Launch</h6>
+                                    <h6 class="mt-n1 mb-0">Petiscos</h6>
                                 </div>
                             </a>
                         </li>
@@ -121,307 +106,1379 @@
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Lovely</small>
-                                    <h6 class="mt-n1 mb-0">Dinner</h6>
+                                    <h6 class="mt-n1 mb-0">Pratos Principais</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-4">
+                                <i class="fa fa-pepper-hot fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Exotic</small>
+                                    <h6 class="mt-n1 mb-0">Pratos Asiáticos</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-5">
+                                <i class="fa fa-salad fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Fresh</small>
+                                    <h6 class="mt-n1 mb-0">Saladas</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-6">
+                                <i class="fa fa-child fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Kids</small>
+                                    <h6 class="mt-n1 mb-0">Crianças</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-7">
+                                <i class="fa fa-ice-cream fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Sweet</small>
+                                    <h6 class="mt-n1 mb-0">Sobremesas</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-8">
+                                <i class="fa fa-wine-glass fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Extras</small>
+                                    <h6 class="mt-n1 mb-0">Extras</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-9">
+                                <i class="fa fa-beer fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Drinks</small>
+                                    <h6 class="mt-n1 mb-0">Bebidas</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-10">
+                                <i class="fa fa-cocktail fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Alcohol</small>
+                                    <h6 class="mt-n1 mb-0">Bebidas Alcoólicas</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-11">
+                                <i class="fa fa-wine-bottle fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Wine</small>
+                                    <h6 class="mt-n1 mb-0">Vinhos</h6>
                                 </div>
                             </a>
                         </li>
                     </ul>
                     <div class="tab-content">
+                        <!-- Entradas -->
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
+                                <!-- GYOZAS -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Gyozas - Porco/ Frango/ Vegetais (5 UNI)</span>
+                                                <span class="text-primary">6.50€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Dumplings crocantes c/ porco, frango ou vegetais</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- COUVERT -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Couvert</span>
+                                                <span class="text-primary">6.90€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Torradas, azeitonas, manteiga de alho, queijo mistura</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- BAO -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Bao - Porco/Tofu (2 UNI)</span>
+                                                <span class="text-primary">7.20€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Pão chinês cozido a vapor c/ porco ou tofu, vegetais e molho hoisin</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- SATAY -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Satay - Frango/Tofu (3 UNI)</span>
+                                                <span class="text-primary">7.50€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Espetadas grelhadas de frango ou tofu, c/ leite de coco e pasta de amendoim</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- CAMARÃO PANADO -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Camarão Panado (6 UNI)</span>
+                                                <span class="text-primary">8.90€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Camarão panado em farinha panko c/ molho agridoce</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Petiscos -->
                         <div id="tab-2" class="tab-pane fade show p-0">
                             <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!-- BATATA FRITA SIMPLES -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Batata Frita Simples</span>
+                                                <span class="text-primary">5.00€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Batata frita simples</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- BATATA C/BACON E QUEIJO -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Batata c/Bacon e Queijo</span>
+                                                <span class="text-primary">6.50€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Batata com bacon picado e queijo ralado</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- PESCADA EMPANADA -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
                                         <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Pescada Empanada</span>
+                                                <span class="text-primary">9.00€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Tiras de filé de pescada empanadas c/ molho agridoce</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FRANGO FRITO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-9.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Frango Frito</span>
+                                                <span class="text-primary">9.00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Frango, molho de ervas e molho agridoce</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- POTAS CHOCO FRITO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-10.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Potas Choco Frito</span>
+                                                <span class="text-primary">9.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Potas de choco frito, batata, salada e molho agridoce</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CALABRESA ACEBOLADA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-11.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Calabresa Acebolada c/Batatas Fritas</span>
+                                                <span class="text-primary">12.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Calabresa em rodelas c/ cebola, batatas fritas e fatias de pão</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BIFE ACEBOLADO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-12.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bife Acebolado</span>
+                                                <span class="text-primary">13.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Bife fatiado com cebola, batata frita e fatias de pão</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SANDES DE PATO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-13.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sandes de Pato</span>
+                                                <span class="text-primary">7.50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de cachorro quente, alface, tomate, cenoura ralada, maionese e pato desfiado</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CACHORRO QUENTE -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-14.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Cachorro Quente</span>
+                                                <span class="text-primary">8.00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de cachorro quente, molho especial, tomate, cebola, milho, salsicha, ketchup, mostarda e batata palha</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BURGER SALADA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-15.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burger Salada</span>
+                                                <span class="text-primary">9.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de hambúrguer, molho especial, alface, tomate, milho, hambúrguer de novilho, fiambre, queijo e batata frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BURGER FRANGO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-16.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burger Frango</span>
+                                                <span class="text-primary">10.50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de hambúrguer, molho especial, alface, tomate, hambúrguer de frango, fiambre, queijo e batata frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BURGER EGG -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-17.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burger Egg</span>
+                                                <span class="text-primary">10.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de hambúrguer, molho especial, alface, tomate, hambúrguer de novilho, fiambre, queijo, ovo e batata frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BURGER BACON -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-18.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burger Bacon</span>
+                                                <span class="text-primary">11.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de hambúrguer, molho especial, alface, tomate, hambúrguer de novilho, fiambre, queijo, bacon e batata frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- TONKATSU -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-19.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tonkatsu - Novilho/Tofu</span>
+                                                <span class="text-primary">12.50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de hambúrguer, pasta de wasabi, hambúrguer empanado de vaca ou tofu, mix de salada, maionese oriental, molho de tonkatsu e batata frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BURGER CALABRESA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-20.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burger Calabresa</span>
+                                                <span class="text-primary">13.50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de hambúrguer, molho especial, alface, tomate, hambúrguer de novilho, fiambre, queijo, calabresa e batata frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BURGER VEGETARIANO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-21.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burger Vegetariano</span>
+                                                <span class="text-primary">14.50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de hambúrguer, molho especial, mix de salada, tomate, hambúrguer vegetariano, queijo, cogumelo, cebola caramelizada e batata frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FRANCESINHA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-22.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Francesinha</span>
+                                                <span class="text-primary">14.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de forma, fiambre, queijo, carne de alcatra, salsicha fresca, ovo, molho da casa e batatas fritas</small>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Pratos Principais -->
                         <div id="tab-3" class="tab-pane fade show p-0">
                             <div class="row g-4">
+                                <!-- OMELETE SIMPLES -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-23.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Omelete Simples</span>
+                                                <span class="text-primary">7.50€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">3 ovos, queijo, orégano, arroz e batata frita ou salada</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- OMELETE TUDO -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-24.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Omelete Tudo</span>
+                                                <span class="text-primary">9.00€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">3 ovos, queijo, fiambre, orégano, cebola, bacon, arroz e batata frita ou salada</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- BITOQUE DE PORCO -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-25.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Bitoque de Porco</span>
+                                                <span class="text-primary">9.90€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Bifana de porco, arroz, batata, ovo e salada (feijão opcional)</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- FRANGO GRELHADO -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-26.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Frango Grelhado</span>
+                                                <span class="text-primary">10.90€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Bifes de frango, arroz, batata e salada (feijão opcional)</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- BACALHAU A BRÁS -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-27.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Bacalhau a Brás</span>
+                                                <span class="text-primary">12.50€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Acompanhado com salada</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- BIFE A CAVALO -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-28.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Bife a Cavalo</span>
+                                                <span class="text-primary">13.90€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Bife de alcatra, arroz, batata, ovo e salada (feijão opcional)</small>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- PICANHA -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-29.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Picanha</span>
+                                                <span class="text-primary">15.90€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Picanha, arroz, batata e salada (feijão opcional)</small>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+
+                        <!-- Pratos Asiáticos -->
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <!-- BÁNH MI -->
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-30.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
+                                                <span>Bánh Mi - Pato/Tofu</span>
+                                                <span class="text-primary">10.90€</span>
                                             </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                            <small class="fst-italic">Sandes de peito de pato ou tofu, c/ vegetais frescos e molho de amendoim</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BEIJING DUCK TACOS -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-31.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Beijing Duck Tacos</span>
+                                                <span class="text-primary">11.50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Peito de pato braseado, alface, alho francês e picante</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- RAMEN DE TOFU -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-32.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ramen de Tofu</span>
+                                                <span class="text-primary">10.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Noodles, caldo de algas, pasta de soja, gengibre, cogumelos, couve pak-choi, filamentos de pimenta, cebola frita, cebolinha, ovo e tofu</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- RAMEN DE PATO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-33.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ramen de Pato</span>
+                                                <span class="text-primary">11.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Noodles, caldo de pato, cogumelos, couve pak-choi, filamentos de pimenta, cebola frita, cebolinha, ovo e peito de pato</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- MACAU MINCHI -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-34.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Macau Minchi</span>
+                                                <span class="text-primary">11.50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Salteados de porco em molho de soja, ovo, gengibre e arroz jasmim</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PAD THAI - TOFU -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-35.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pad Thai - Tofu</span>
+                                                <span class="text-primary">11.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Massa de arroz c/ vegetais, molho de pad thai, ovo, amendoins e tofu fumado</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PAD THAI - FRANGO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-36.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pad Thai - Frango</span>
+                                                <span class="text-primary">12.40€</span>
+                                            </h5>
+                                            <small class="fst-italic">Massa de arroz c/ vegetais, molho de pad thai, ovo, amendoins e peito de frango grelhado</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PAD THAI - CAMARÃO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-37.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Pad Thai - Camarão</span>
+                                                <span class="text-primary">12.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Massa de arroz c/ vegetais, molho de pad thai, ovo, amendoins e camarão</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CARIL DE VEGETAIS -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-38.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caril de Vegetais</span>
+                                                <span class="text-primary">11.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Vegetais salteados simples, especiarias, caril e leite de coco c/ arroz de jasmim</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CARIL DE TOFU -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-39.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caril de Tofu</span>
+                                                <span class="text-primary">12.50€</span>
+                                            </h5>
+                                            <small class="fst-italic">Vegetais salteados simples, tofu, especiarias, caril e leite de coco c/ arroz de jasmim</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CARIL DE FRANGO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-40.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caril de Frango</span>
+                                                <span class="text-primary">13.00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Vegetais salteados simples, peito de frango em cubos, especiarias, caril e leite de coco c/ arroz de jasmim</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CARIL DE CAMARÃO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-41.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caril de Camarão</span>
+                                                <span class="text-primary">14.90€</span>
+                                            </h5>
+                                            <small class="fst-italic">Vegetais salteados simples, camarão, especiarias, caril e leite de coco c/ arroz de jasmim</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Saladas -->
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <!-- SALADA SIMPLES -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-42.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Salada Simples</span>
+                                                <span class="text-primary">5.00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Alface, tomate, pepino, milho, cenoura ralada e cebola roxa</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SALADA FRANGO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-43.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Salada Frango</span>
+                                                <span class="text-primary">7.00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Alface, tomate, pepino, milho, cenoura ralada, cebola roxa e frango grelhado em cubos</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SALADA CAMARÃO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-44.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Salada Camarão</span>
+                                                <span class="text-primary">9.00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Alface, tomate, pepino, milho, cenoura ralada, cebola roxa, manga e camarão</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Crianças -->
+                        <div id="tab-6" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <!-- FRANGO PANADO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-45.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Frango Panado</span>
+                                                <span class="text-primary">8.00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Panado de frango, c/ arroz e batata frita</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BURGER KIDS -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-46.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Burger Kids</span>
+                                                <span class="text-primary">8.00€</span>
+                                            </h5>
+                                            <small class="fst-italic">Pão de hambúrguer, hambúrguer, queijo e batatas fritas</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sobremesas -->
+                        <div id="tab-7" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <!-- MOUSSE DE CHOCOLATE -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-47.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mousse de Chocolate c/ Amendoins</span>
+                                                <span class="text-primary">4.50€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- MANGO RICE -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-48.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mango Rice</span>
+                                                <span class="text-primary">4.50€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- TIRAMISÙ DE CHÁ VERDE -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-49.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tiramisù de Chá Verde</span>
+                                                <span class="text-primary">4.70€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- PETIT GÂTEAU -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-50.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Petit Gâteau</span>
+                                                <span class="text-primary">6.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Extras -->
+                        <div id="tab-8" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <!-- OVO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-51.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ovo</span>
+                                                <span class="text-primary">1.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SALSICHA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-52.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Salsicha (Cachorro Quente)</span>
+                                                <span class="text-primary">1.50€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ARROZ -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-53.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Arroz</span>
+                                                <span class="text-primary">2.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FEIJÃO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-54.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Feijão</span>
+                                                <span class="text-primary">2.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- BACON -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-55.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bacon</span>
+                                                <span class="text-primary">2.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CALABRESA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-56.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Calabresa</span>
+                                                <span class="text-primary">2.50€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- HAMBÚRGUER -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-57.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Hambúrguer</span>
+                                                <span class="text-primary">2.60€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CAMARÃO (3 UNI) -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-58.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Camarão (3 UNI)</span>
+                                                <span class="text-primary">5.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bebidas -->
+                        <div id="tab-9" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <!-- CAFÉ -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-59.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Café</span>
+                                                <span class="text-primary">0.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ÁGUA LUSO 50CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-60.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Água Luso 50cl</span>
+                                                <span class="text-primary">1.50€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ÁGUA C/ GÁS (SEM SABOR) 25CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-61.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Água c/ Gás (sem sabor) 25cl</span>
+                                                <span class="text-primary">1.50€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ÁGUA C/GÁS LIMÃO 25CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-62.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Água c/Gás Limão 25cl</span>
+                                                <span class="text-primary">1.70€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CHÁ DE JASMIM -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-63.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chá de Jasmim</span>
+                                                <span class="text-primary">1.60€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- MEIA DE LEITE -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-64.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Meia de Leite</span>
+                                                <span class="text-primary">1.60€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- COCA COLA 33CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-65.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Coca Cola 33cl</span>
+                                                <span class="text-primary">1.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- COCA COLA ZERO 33CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-66.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Coca Cola Zero 33cl</span>
+                                                <span class="text-primary">1.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- FANTA 33CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-67.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Fanta 33cl</span>
+                                                <span class="text-primary">1.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ICE TEA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-68.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Ice Tea (Limão, Manga, Pêssego)</span>
+                                                <span class="text-primary">1.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 7UP 33CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-69.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>7UP 33cl</span>
+                                                <span class="text-primary">1.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- GUARANÁ ANTARCTICA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-70.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Guaraná Antarctica</span>
+                                                <span class="text-primary">1.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- LARANJA NATURAL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-71.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Laranja Natural</span>
+                                                <span class="text-primary">3.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- LIMONADA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-72.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Limonada</span>
+                                                <span class="text-primary">3.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bebidas Alcoólicas -->
+                        <div id="tab-10" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <!-- IMPERIAL 20CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-73.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Imperial 20cl</span>
+                                                <span class="text-primary">1.50€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- IMPERIAL (TULIPA) 30CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-74.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Imperial (Tulipa) 30cl</span>
+                                                <span class="text-primary">1.70€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- IMPERIAL (CANECA) 50CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-75.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Imperial (Caneca) 50cl</span>
+                                                <span class="text-primary">3.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- HEINEKEN 25CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-76.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Heineken 25cl</span>
+                                                <span class="text-primary">1.70€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- HEINEKEN 0% 25CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-77.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Heineken 0% 25cl</span>
+                                                <span class="text-primary">1.70€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SAGRES 33CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-78.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sagres 33cl</span>
+                                                <span class="text-primary">1.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SAGRES PRETA 33CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-79.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sagres Preta 33cl</span>
+                                                <span class="text-primary">1.90€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SOMERSBY -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-80.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Somersby (Maçã, Frutos Vermelhos) 33cl</span>
+                                                <span class="text-primary">2.40€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- AGUARDENTE -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-81.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Aguardente - Bagaço</span>
+                                                <span class="text-primary">5.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- MOSCATEL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-82.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Moscatel</span>
+                                                <span class="text-primary">5.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- VINHO DO PORTO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-83.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vinho do Porto</span>
+                                                <span class="text-primary">5.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CAIPIRINHA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-84.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caipirinha</span>
+                                                <span class="text-primary">6.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CAIPIRINHA DE SAQUÊ -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-85.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caipirinha de Saquê</span>
+                                                <span class="text-primary">6.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- CAIPIRINHA DE VODKA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-86.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Caipirinha de Vodka</span>
+                                                <span class="text-primary">6.50€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- GIN -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-87.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Gin</span>
+                                                <span class="text-primary">7.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ESPUMANTE 75CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-88.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Espumante 75cl</span>
+                                                <span class="text-primary">10.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- VINHO DA CASA 75CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-89.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vinho da Casa 75cl</span>
+                                                <span class="text-primary">12.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- VINHO DO ALENTEJO -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-90.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vinho do Alentejo (Marquês de Borba, EA)</span>
+                                                <span class="text-primary">15.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Vinhos -->
+                        <div id="tab-11" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <!-- VINHO BRANCO VERDE 75CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-91.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vinho Branco Verde 75cl</span>
+                                                <span class="text-primary">9.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- VINHO BRANCO MADURO 75CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-92.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vinho Branco Maduro 75cl</span>
+                                                <span class="text-primary">9.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- VINHO TINTO DA CASA -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-93.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Vinho Tinto da Casa (Garrafa 75cl)</span>
+                                                <span class="text-primary">12.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SANGRIA 1L -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-94.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sangria (1L)</span>
+                                                <span class="text-primary">15.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- MOET CHANDON 75CL -->
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-95.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Moet Chandon 75cl</span>
+                                                <span class="text-primary">55.00€</span>
+                                            </h5>
+                                            <small class="fst-italic"></small>
                                         </div>
                                     </div>
                                 </div>
@@ -434,71 +1491,68 @@
         <!-- Menu End -->
         
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Reservation</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+              <!-- Footer Start -->
+              <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Empresa</h4>
+                            <a class="btn btn-link" href="about.html">Sobre Nós</a>
+                            <a class="btn btn-link" href="contact.html">Contate-nos</a>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
-                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
-                        <p>09AM - 09PM</p>
-                        <h5 class="text-light fw-normal">Sunday</h5>
-                        <p>10AM - 08PM</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
-                        <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contato</h4>
+                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Largo d'Alvaro Velho 3, 7000-799 Évora</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+351) 266 741 156</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>restaurantekantu@gmail.com</p>
+                            <div class="d-flex pt-2">
+                                <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/kantuevora/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/kanturestaurante/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Horário de Funcionamento</h4>
+                            <div class="opening-hours">
+                                <div class="day">
+                                    <h5 class="text-light fw-normal">Segunda-feira</h5>
+                                    <p>12:00–15:30</p>
+                                </div>
+                                <div class="day">
+                                    <h5 class="text-light fw-normal">Terça-feira</h5>
+                                    <p>Encerrado</p>
+                                </div>
+                                <div class="day">
+                                    <h5 class="text-light fw-normal">Quarta-feira, Sexta-feira, Sábado, Domingo</h5>
+                                    <p>12:00–15:30</p>
+                                    <p>19:00–22:30</p>
+                                </div>
+                                <div class="day">
+                                    <h5 class="text-light fw-normal">Quinta-feira</h5>
+                                    <p>12:00–22:30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                            <div class="position-relative mx-auto" style="max-width: 400px;">
+                                <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Seu e-mail">
+                                <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Inscrever-se</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
-                            Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                &copy; <a class="border-bottom" href="#">Kantu</a>, Todos os Direitos Reservados. 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Footer End -->
-
+            <!-- Footer End -->
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
@@ -520,4 +1574,26 @@
     <script src="js/main.js"></script>
 </body>
 
+<style>
+    .opening-hours {
+        font-size: 1rem;
+        color: #fff;
+        background-color: #0461be;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .opening-hours .day {
+        margin-bottom: 10px;
+    }
+    .opening-hours .day:last-child {
+        margin-bottom: 0;
+    }
+    .opening-hours h5 {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+    .opening-hours p {
+        margin-bottom: 0;
+    }
+    </style>
 </html>
